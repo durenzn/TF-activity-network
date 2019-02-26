@@ -5,6 +5,10 @@ To study systems-level properties of the cell, it is necessary to go beyond indi
 This is the MARLAB source code for infering Tf activity network. 
 The main program for TF activity network inference is in the file named TFActivyNetwork.m
 The directory /demo gives an small example by running demo.m 
+
+[NW ccmi Modulator AA TFA BB TFtN MTFtN MTFNet TFtNet]=TFActivyNetwork(A,TFid,ppi,10^(-6),0.5);
+
+
 The input files in /demo directory can serve as the templates the parameters in demo.m can be the default ones.
 
 
