@@ -1,0 +1,2 @@
+# TF-activity-network
+To study systems-level properties of the cell, it is necessary to go beyond individual regulators and target genes to study the regulatory network among transcription factors (TFs). However, it is difficult to directly measure TF activity or DNA-binding fraction of TF by experiment. Here, we proposed a hierarchical graphical model to estimate TF activity from mRNA expression by building TF complexes with protein co-factors and inferring TF’s downstream regulatory network simultaneously. 
