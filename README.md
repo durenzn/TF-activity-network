@@ -8,7 +8,7 @@ The directory /demo gives an small example by running demo.m
 The input files in /demo directory can serve as the templates the parameters in demo.m can be the default ones.
 
 
-Inputs:
+#Inputs:
 
 'LA' is the gene expression data, in which rows denote genes and columns denote samples;
 'TFid' is the index of the TFs.
@@ -16,7 +16,7 @@ Inputs:
 'arfa' is the p-value cutoff of the Transcriptional Regulatory Network inferred in Step one.
 'lambda' is the paramater balancing the sparsity and likelihood.
 
-Outputs:
+#Outputs:
 
 'NW' is the matrix of Transcriptional Regulatory Network with m TFs and N target genes.
 'ccmi' is the condotional mutual information.
